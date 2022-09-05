@@ -7,9 +7,8 @@ const calculateAge = async (req, res) => {
     const { dob } = req.query;
     let resp = '';
     if (dob) {
-      const userDate = moment().diff(moment(dob, 'YYYYMMDD'), 'years');
-      const ageMsg = messages.tellAge;
-      resp = `${ageMsg} ${userDate}`;
+      const userDate = await moment().diff(moment(dob, 'YYYYMMDD'), 'years');
+      resp = messages.tellAge(userDate);
     } else {
       return response(res, 400, 'error', { errors: messages.badTimeStamp });
     }
