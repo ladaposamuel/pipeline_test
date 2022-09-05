@@ -13,8 +13,8 @@
  *    response(res, 404, 'error', { message: 'not found'})
 */
 const response = (res, status, statusMessage, data) => res.status(status).json({
-    status: statusMessage,
-    data,
-  });
-  
-  export default response;
+  status: statusMessage,
+  data,
+});
+
+export default response;

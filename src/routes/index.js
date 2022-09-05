@@ -11,7 +11,6 @@ const routes = (router) => {
 
   // user routes
   dobRoute(router);
- 
 };
 
 export default routes;

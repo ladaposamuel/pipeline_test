@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
-    "start:dev": "set DEBUG=http:* && nodemon src/index.js --exec babel-node"
+    "start:dev": "set DEBUG=http:* && nodemon src/index.js --exec babel-node",
+    "lint": "./node_modules/.bin/eslint",
+    "lint:fix": "./node_modules/.bin/eslint --fix"
   },
   "author": "Samuel Ladapo",
   "license": "ISC",
