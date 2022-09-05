@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
+    "build": "babel src -d dist",
     "start:dev": "set DEBUG=http:* && nodemon src/index.js --exec babel-node",
     "lint": "./node_modules/.bin/eslint",
     "lint:fix": "./node_modules/.bin/eslint --fix"
