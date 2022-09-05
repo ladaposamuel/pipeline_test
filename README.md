@@ -1,4 +1,3 @@
-
 # Age Calulator APP
 
 An app that helps user calculates their age with the provided timestamp.
@@ -10,9 +9,9 @@ An app that helps user calculates their age with the provided timestamp.
 ### Table of Contents
 
 1. [About the Project](#about-the-project)
-1. [Project Status](#project-status)
-1. [Getting Started](#getting-started)
-1. [Acknowledgment](#Acknowledgement)
+2. [Project Status](#project-status)
+3. [Getting Started](#getting-started)
+4. [Acknowledgment](#Acknowledgement)
 
 ## About the project
 
@@ -20,7 +19,7 @@ An app that helps user calculates their age with the provided timestamp.
 
 ## Project Status
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/99c11b5c7c124aeebf27b2d7fcb39861)](https://www.codacy.com/gh/ladaposamuel/pipeline_test/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ladaposamuel/pipeline_test&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/99c11b5c7c124aeebf27b2d7fcb39861)](https://www.codacy.com/gh/ladaposamuel/pipeline_test/dashboard?utm_source=github.com&utm_medium=referral&utm_content=ladaposamuel/pipeline_test&utm_campaign=Badge_Grade)
 
 **[Back to top](#table-of-contents)**
 
@@ -37,7 +36,7 @@ cd pipeline_test
 
 # Install NPM dependencies
 npm install
-or 
+or
 yarn install
 
 # Then simply start your app
@@ -45,7 +44,6 @@ npm run start:dev
 or
 yarn run start:dev
 ```
-
 
 ### Running Build
 
@@ -55,7 +53,7 @@ cd pipeline_test
 
 # Start test
 npm run build
-or 
+or
 yarn run build
 ```
 
